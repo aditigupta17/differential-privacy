@@ -9,7 +9,7 @@ This repository will compile the work done so far by us for fulfilment of CO440:
 * [Differential Privacy - Lecture 1](https://youtu.be/OfWj89oRD7g) (Video)
 * [The Definition of Differential Privacy - Cynthia Dwork](https://youtu.be/lg-VhHlztqo) (Video)
 ### Feature Selection using Differential Privacy
-* [Differentially Private Feature Selection for Data Mining](http://delivery.acm.org/10.1145/3190000/3180452/p43-anandan.pdf?ip=218.248.46.107&id=3180452&acc=ACTIVE%20SERVICE&key=045416EF4DDA69D9%2E4A4590D5C9BCB165%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1568019197_4039007c2512f1eae2e80072fb6286e8)
+* [Differentially Private Feature Selection for Data Mining](https://dl.acm.org/citation.cfm?id=3180452)
 * [Differentially Private Feature Selection](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6889613)
 * [Correlated Differential Privacy: Feature Selection in Machine Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8809721)
 * [Using Feature Selection to Improve the Utility of Differentially Private Data Publishing ](https://core.ac.uk/download/pdf/82752629.pdf)
