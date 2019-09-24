@@ -1,5 +1,4 @@
-## ![The Definition of Differential Privacy - Cynthia Dwork
-](https://www.youtube.com/watch?v=lg-VhHlztqo)
+## [The Definition of Differential Privacy - Cynthia Dwork](https://www.youtube.com/watch?v=lg-VhHlztqo)
 
 - De-identified data isn't a solution because either it is not (1) useful data oe (2) de-identified at all. Specifically, de-identification does not hedge against linkage attacks, and against future revelation of auxilliary data sources.
 
