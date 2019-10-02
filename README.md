@@ -14,3 +14,6 @@ This repository will compile the work done so far by us for fulfilment of CO440:
 * [Correlated Differential Privacy: Feature Selection in Machine Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8809721)
 * [Using Feature Selection to Improve the Utility of Differentially Private Data Publishing ](https://core.ac.uk/download/pdf/82752629.pdf)
 * [Differentially private feature selection under MapReduce framework](https://www.sciencedirect.com/science/article/abs/pii/S1005888513600941)
+
+### Relaxed versions of Differential Privacy
+* [Capacity Bounded Differential Privacy, NeuRIPS 2019](https://arxiv.org/pdf/1907.02159v1.pdf)
