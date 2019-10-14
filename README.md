@@ -19,6 +19,7 @@ This repository will compile the work done so far by us for fulfilment of CO440:
 * [Capacity Bounded Differential Privacy, NeuRIPS 2019](https://arxiv.org/pdf/1907.02159v1.pdf)
 
 ## Exploratory areas
+- Imperfect Randomness
 - Multiparty Computation
 - Rank Aggregation
 - Equilibrium Computation
