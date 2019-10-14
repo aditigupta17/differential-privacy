@@ -17,3 +17,17 @@ This repository will compile the work done so far by us for fulfilment of CO440:
 
 ### Relaxed versions of Differential Privacy
 * [Capacity Bounded Differential Privacy, NeuRIPS 2019](https://arxiv.org/pdf/1907.02159v1.pdf)
+
+## Exploratory areas
+- Multiparty Computation
+- Rank Aggregation
+- Equilibrium Computation
+- Matrix Mechanism
+- Batch / Linear / Range Query Optimisation
+- Real-time Aggregate Monitoring
+- Control and Network Systems
+- Record Matching / Linkage
+- Graph Structures 
+- Random Matrix Approach
+- Spectral Graph Analysis
+- Johnson-Lindenstrauss Transform
