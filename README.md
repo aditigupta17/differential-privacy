@@ -16,8 +16,11 @@ This repository will compile the work done so far by us for fulfilment of CO440:
 * [Using Feature Selection to Improve the Utility of Differentially Private Data Publishing ](https://core.ac.uk/download/pdf/82752629.pdf)
 * [Differentially private feature selection under MapReduce framework](https://www.sciencedirect.com/science/article/abs/pii/S1005888513600941)
 
+* [No Free Lunch in Data Privacy](https://dl.acm.org/citation.cfm?id=1989345)
+
 ### Relaxed versions of Differential Privacy
 * [Capacity Bounded Differential Privacy, NeuRIPS 2019](https://arxiv.org/pdf/1907.02159v1.pdf)
+* [Computational Differential Privacy](https://omereingold.files.wordpress.com/2017/06/compdiffpriv-crypto.pdf)
 
 ## Exploratory areas
 - Imperfect Randomness [CRYPTO 2015](https://link.springer.com/chapter/10.1007/978-3-662-48000-7_23)
