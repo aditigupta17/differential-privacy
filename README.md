@@ -16,6 +16,7 @@ This repository will compile the work done so far by us for fulfilment of CO440:
 * [Using Feature Selection to Improve the Utility of Differentially Private Data Publishing ](https://core.ac.uk/download/pdf/82752629.pdf)
 * [Differentially private feature selection under MapReduce framework](https://www.sciencedirect.com/science/article/abs/pii/S1005888513600941)
 
+### Assumptions of Differential Privacy
 * [No Free Lunch in Data Privacy](https://dl.acm.org/citation.cfm?id=1989345)
 
 ### Relaxed versions of Differential Privacy
