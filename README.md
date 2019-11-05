@@ -1,7 +1,14 @@
 # Major Project (CO440)
 This repository will compile the work done so far by us for fulfilment of CO440: Major Project
 
-## Resources 
+## Papers we'll be studying for Literature Review
+* [No Free Lunch in Data Privacy](https://github.com/aditigupta17/differential-privacy/blob/master/papers-pdf/DP-Limitations-papers/No%20Free%20Lunch%20in%20Data%20Privacy.pdf)
+* [Capacity Bounded DP](https://github.com/aditigupta17/differential-privacy/blob/master/papers-pdf/DP-Limitations-papers/Capacity%20Bounded%20DP.pdf)
+* [Computational Differential Privacy](https://github.com/aditigupta17/differential-privacy/blob/master/papers-pdf/DP-Limitations-papers/Computational%20Differential%20Privacy.pdf)
+* [Price of DP for Online Learning](https://github.com/aditigupta17/differential-privacy/blob/master/papers-pdf/DP-Limitations-papers/Price%20of%20DP%20for%20Online%20Learning.pdf)
+* [Bounding User Contributions](https://github.com/aditigupta17/differential-privacy/blob/master/papers-pdf/DP-Limitations-papers/Bounding%20User%20Contributions.pdf)
+
+## Other Resources 
 * [Differential Privacy (C Dwork)](https://www.researchgate.net/profile/Minzhu_Xie2/publication/220908334_A_Practical_Parameterized_Algorithm_for_the_Individual_Haplotyping_Problem_MLF/links/0deec5328063473edc000000/A-Practical-Parameterized-Algorithm-for-the-Individual-Haplotyping-Problem-MLF.pdf#page=12) (2011)
 * [The algorithmic foundations of differential privacy](https://www.nowpublishers.com/article/DownloadSummary/TCS-042) 
 * [Deep Learning with Differential Privacy](https://dl.acm.org/citation.cfm?id=2978318) (2016)
