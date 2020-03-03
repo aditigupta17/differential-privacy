@@ -4,6 +4,6 @@ This folder contains the file `pairwise.py` which has the modification of scikit
 
 To use the code, replace the file in the `sklearn/metrics/pairwise.py` location with this file. (To get to know the location of sklearn in your system, `import sklearn` and `print(sklearn.__file__)`)
 
-##TODO:
+## TODO:
 - The current implementation is done directly in the core euclidean distance function itself. We need to move it out of there and put it in a separate function.
 -  The gaussian noise has fixed variance. It needs to be parameterised.
