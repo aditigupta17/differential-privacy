@@ -195,7 +195,7 @@ def check_paired_arrays(X, Y):
 
 # Pairwise distances
 def euclidean_distances(X, Y=None, Y_norm_squared=None, squared=False,
-                        X_norm_squared=None):
+                        X_norm_squared=None, normalize=True, sigma=1.0):
     """
     Considering the rows of X (and Y=X) as vectors, compute the
     distance matrix between each pair of vectors.
@@ -312,14 +312,15 @@ def euclidean_distances(X, Y=None, Y_norm_squared=None, squared=False,
     if X is Y:
         np.fill_diagonal(distances, 0)
 
-    d = distances if squared else np.sqrt(distances, out=distances)
-    dnorm = normalize(d, axis=0).ravel()
+    distance = distances if squared else np.sqrt(distances, out=distances)
 
-    noise = np.random.normal(size=dnorm.shape) #TODO: To be changed based on the parameters
+    if normalize:
+        distance = normalize(distance)
+    
+    noise = np.random.normal(scale=sigma, size=distance.shape)
 
-    dn = np.reshape(dnorm + noise, d.shape)
-    return dn
-
+    noisy_distance = distance + noise
+    return noisy_distance
 
 def nan_euclidean_distances(X, Y=None, squared=False,
                             missing_values=np.nan, copy=True):
@@ -1915,3 +1916,23 @@ def pairwise_kernels(X, Y=None, metric="linear", filter_params=False,
         raise ValueError("Unknown kernel %r" % metric)
 
     return _parallel_pairwise(X, Y, func, n_jobs, **kwds)
+
+"""
+---------------------------------------------------------------------------
+Region where the new code will be added
+---------------------------------------------------------------------------
+"""
+
+def noisy_euclidean_distance(X, Y=None, Y_norm_squared=None, squared=False,
+                        X_norm_squared=None, normalise=True, sigma=1.0):
+    
+    distance = euclidean_distances(X, Y, Y_norm_squared, squared, X_norm_squared)
+
+    
+    if normalize:
+        distance = normalize(distance)
+    
+    noise = np.random.normal(scale=sigma, size=distance.shape)
+
+    noisy_distance = distance + noise
+    return noisy_distance
